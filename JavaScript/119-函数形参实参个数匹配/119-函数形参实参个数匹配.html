@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<script type="text/javascript">
+			// 函数形参实参个数匹配
+			function getSum(num1, num2) {
+				console.log(num1 + num2);
+			}
+			// 1.如果形参个数等于实参个数 正常输出结果
+			getSum(1, 2);
+			// 2.如果实参的个数多余形参的个数 会取到形参的个数
+			getSum(1, 2, 3);
+			// 3.如果实参的个数小于形参的个数
+			// 形参可以看做是不用声明的变量 num2是一个变量但是没有接收值 结果就是undefined
+			getSum(1);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>
