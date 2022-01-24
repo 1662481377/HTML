@@ -1,0 +1,12 @@
+*{ margin: 0; padding: 0;}
+ul,ol{ list-style: none;}
+img{ display: block;}
+a{ text-decoration: none; color: #464646;}
+h1,h2,h3{ font-size: 16px;}
+body{font-family: Arial,'宋体';}
+
+.l{ float: left;}
+.r{ float: right;}
+.clear:after{ content: ""; display: block; clear: both;}
+.container{ width: 980px; margin: 0 auto; position: relative;}
+.container-fluid{ width: 100%;}
